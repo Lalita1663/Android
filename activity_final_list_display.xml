@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.administrator.ingredion4.FinalListDisplay">
+
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="395dp"
+        android:layout_height="513dp"
+
+
+        ></ListView>
+
+    <Button
+        android:layout_width="154dp"
+        android:layout_height="48dp"
+
+
+        app:layout_anchor="@+id/listview"
+        app:layout_anchorGravity="bottom|center"
+        tools:layout_editor_absoluteY="494dp"
+        android:id="@+id/finalCreation"
+        android:onClick="insert_list"
+        />
+
+
+</android.support.design.widget.CoordinatorLayout>

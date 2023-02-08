@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.administrator.ingredion4.SavedList">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event Details"
+            />
+
+        <TextView
+            android:id="@+id/ename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event Name"
+            android:textColor="#673AB7"
+            android:textSize="25dp"
+            />
+
+        <TextView
+            android:id="@+id/nop2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="numberOfPeople"
+            android:textColor="#673AB7"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/date2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textColor="#673AB7"
+            android:textSize="25dp"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dishes"
+            />
+
+
+        <ListView
+            android:id="@+id/showalldishes"
+            android:layout_width="374dp"
+            android:layout_height="120dp"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="278dp"></ListView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingredients with qty"
+            />
+
+        <ListView
+            android:id="@+id/showalling"
+            android:layout_width="match_parent"
+            android:layout_height="277dp"
+            app:layout_anchor="@+id/showalldishes"
+            app:layout_anchorGravity="bottom|center"
+            tools:layout_editor_absoluteX="156dp"
+            tools:layout_editor_absoluteY="369dp"></ListView>
+
+
+    </LinearLayout>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

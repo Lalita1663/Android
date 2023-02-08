@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.administrator.ingredion4.DDish"
+    tools:showIn="@layout/activity_ddish">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="4dp"
+        tools:ignore="MissingConstraints">
+
+
+        <SearchView
+            android:layout_width="348dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="20dp"
+
+            android:orientation="horizontal"
+            android:visibility="visible">
+        </SearchView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="@color/colorAccent"
+            android:text="    Director"
+            />
+
+        <Button
+            android:id="@+id/Prof"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="379dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+
+            android:background="@null"
+            android:fontFamily="sans-serif"
+            android:onClick="StartTrialActivity"
+            android:text="kheer"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            tools:ignore="InvalidId,OnClick,RtlCompat" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="@color/colorAccent"
+            android:fontFamily="sans-serif"
+            android:text="    Superintendent"
+            />
+
+
+        <Button
+            android:id="@+id/Superintendent"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="379dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@null"
+            android:fontFamily="sans-serif"
+            android:onClick="StartTrialActivity"
+            android:text="rasgulla"
+            android:textAlignment="viewStart"
+
+            android:textSize="13dp"
+            android:textStyle="bold"
+            tools:ignore="OnClick,RtlCompat" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="@color/colorAccent"
+            android:text="    Work Assistant"
+            />
+
+
+        <Button
+            android:id="@+id/WorkAsst"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="379dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@null"
+            android:fontFamily="sans-serif"
+            android:onClick="StartTrialActivity"
+            android:text="ice cream"
+            android:textAlignment="viewStart"
+
+            android:textSize="13dp"
+            android:textStyle="bold"
+            tools:ignore="OnClick,RtlCompat" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:background="@color/colorAccent"
+            android:text="    Attendant"
+
+
+            />
+
+
+        <Button
+            android:id="@+id/Attendant"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="379dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@null"
+            android:fontFamily="sans-serif"
+            android:onClick="StartTrialActivity"
+            android:text="white sauce pasta"
+            android:textAlignment="viewStart"
+
+            android:textSize="13dp"
+            android:textStyle="bold"
+            tools:ignore="OnClick,RtlCompat" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.administrator.ingredion4.SelectDish"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="4dp"
+        tools:ignore="MissingConstraints">
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"/>
+
+        <CheckBox
+            android:id="@+id/kheer"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="379dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+
+            android:background="@null"
+            android:fontFamily="sans-serif"
+            android:onClick="Selection"
+            android:text="kheer"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            tools:ignore="InvalidId,OnClick,RtlCompat" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+
+        <CheckBox
+            android:id="@+id/rasgulla"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="379dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@null"
+            android:fontFamily="sans-serif"
+            android:onClick="Selection"
+            android:text="rasgulla"
+            android:textAlignment="viewStart"
+
+            android:textSize="13dp"
+            android:textStyle="bold"
+            tools:ignore="OnClick,RtlCompat" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+
+        <CheckBox
+            android:id="@+id/wsp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="379dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@null"
+            android:fontFamily="sans-serif"
+            android:onClick="Selection"
+            android:text="white sauce pasta"
+            android:textAlignment="viewStart"
+
+            android:textSize="13dp"
+            android:textStyle="bold"
+            tools:ignore="OnClick,RtlCompat" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+
+        <CheckBox
+            android:id="@+id/ffries"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="379dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@null"
+            android:fontFamily="sans-serif"
+            android:onClick="Selection"
+            android:text="french fries"
+            android:textAlignment="viewStart"
+
+            android:textSize="13dp"
+            android:textStyle="bold"
+            tools:ignore="OnClick,RtlCompat" />
+
+        <CheckBox
+            android:id="@+id/icecream"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="379dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@null"
+            android:fontFamily="sans-serif"
+            android:onClick="Selection"
+            android:text="ice cream"
+            android:textAlignment="viewStart"
+
+            android:textSize="13dp"
+            android:textStyle="bold"
+            tools:ignore="OnClick,RtlCompat" />
+
+        <CheckBox
+            android:id="@+id/friedrice"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="379dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@null"
+            android:fontFamily="sans-serif"
+            android:onClick="Selection"
+            android:text="fried rice"
+            android:textAlignment="viewStart"
+
+            android:textSize="13dp"
+            android:textStyle="bold"
+            tools:ignore="OnClick,RtlCompat" />
+
+        <CheckBox
+            android:id="@+id/burger"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="379dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@null"
+            android:fontFamily="sans-serif"
+            android:onClick="Selection"
+            android:text="burger"
+            android:textAlignment="viewStart"
+
+            android:textSize="13dp"
+            android:textStyle="bold"
+            tools:ignore="OnClick,RtlCompat" />
+
+        <CheckBox
+            android:id="@+id/pizza"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="379dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@null"
+            android:fontFamily="sans-serif"
+            android:onClick="Selection"
+            android:text="pizza"
+            android:textAlignment="viewStart"
+
+            android:textSize="13dp"
+            android:textStyle="bold"
+            tools:ignore="OnClick,RtlCompat" />
+
+
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/done"
+            android:onClick="FinalSelection"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/finalResult"
+            />
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

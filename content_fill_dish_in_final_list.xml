@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.administrator.ingredion4.FillDishInFinalList"
+    tools:showIn="@layout/activity_fill_dish_in_final_list">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="4dp"
+        android:layout_gravity="center"
+        tools:ignore="MissingConstraints">
+
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorAccent"
+
+            />
+
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="275dp"
+            android:layout_height="23dp"
+            android:background="#FF800080"
+            android:text="---"
+            android:textSize="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            tools:ignore="InvalidId"
+            />
+
+        <TextView
+            android:id="@+id/mobile"
+            android:layout_width="275dp"
+            android:layout_height="23dp"
+            android:background="@color/colorAccent"
+            android:text="---"
+            android:textSize="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            tools:ignore="InvalidId" />
+
+
+        <View
+            android:layout_width="275dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/darker_gray"/>
+
+
+
+        <TextView
+            android:id="@+id/office"
+            android:layout_width="275dp"
+            android:layout_height="23dp"
+            android:background="@color/colorAccent"
+            android:text="---"
+            android:textSize="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <View
+            android:layout_width="275dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/darker_gray"/>
+
+
+        <TextView
+            android:id="@+id/Residence"
+            android:layout_width="275dp"
+            android:layout_height="23dp"
+            android:background="@color/colorAccent"
+            android:text="---"
+            android:textSize="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorPrimaryDark" />
+        <View
+            android:layout_width="275dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/darker_gray"/>
+
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="275dp"
+            android:layout_height="23dp"
+            android:background="@color/colorAccent"
+            android:text="---"
+            android:textSize="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <View
+            android:layout_width="275dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/darker_gray"/>
+
+
+        <TextView
+            android:id="@+id/designation"
+            android:layout_width="275dp"
+            android:layout_height="23dp"
+            android:background="@color/colorAccent"
+
+            android:text="---"
+            android:textSize="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorPrimaryDark" />
+        <View
+            android:layout_width="275dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/darker_gray"/>
+
+
+
+        <TextView
+            android:id="@+id/department"
+            android:layout_width="275dp"
+            android:layout_height="23dp"
+
+            android:text="---"
+            android:textSize="16dp"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorPrimaryDark" />
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
